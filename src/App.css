@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar{
+  display: flex;
+  justify-content:space-between;
+  padding: 12px;
+}
+.navBar a:hover{
+  background-color:forestgreen;
+}
