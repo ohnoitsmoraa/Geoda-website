@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, Leaf } from "lucide-react";
 
-import About from "./About";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 	return (
@@ -51,6 +51,7 @@ const Navbar = () => {
 							</a>
 						</li>
 					</ul>
+					
 				</div>
 			</nav>
 			{/* <Routes>

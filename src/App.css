@@ -45,3 +45,10 @@
 .navBar a:hover{
   background-color:forestgreen;
 }
+
+.button-submit a:hover{
+  background-color: forestgreen;
+}
+.button-submit{
+  text-emphasis-color: white;
+}
