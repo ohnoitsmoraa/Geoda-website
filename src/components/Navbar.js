@@ -15,7 +15,7 @@ const Navbar = () => {
 							className="h-8 w-auto"
 						/>
 
-						<span className="text-xl font-bold"> GEODS GREENS</span>
+						<span className="text-xl font-bold"> GEODA GREENS</span>
 					</div>
 					<ul className="flex space-x-4">
 						<li>

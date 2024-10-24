@@ -2,9 +2,12 @@ import React, { useEffect, useState } from "react";
 
 const Carousel = () => {
 	const images = [
-		"https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-		"https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80",
-		"https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+		"https://images.unsplash.com/photo-1601648764658-cf37e8c89b70?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://images.unsplash.com/photo-1692369584496-3216a88f94c1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://plus.unsplash.com/premium_photo-1664302495846-8be51057b602?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://images.unsplash.com/photo-1621872320869-bed3257199ab?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://plus.unsplash.com/premium_photo-1661845609789-635c5e35c4ba?q=80&w=1896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://grekkon.com/wp-content/uploads/2022/12/GH-tunnel-type-out.jpeg",
 	];
 
 	const [currentImageIndex, setCurrentImageIndex] = useState(0);
